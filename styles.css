@@ -21,7 +21,7 @@ header{
       padding: 0%;
       margin: 0%;
       border: none;
-      height: 50px;
+      height: 3rem;
       width: 40vw;
       border-radius: 5px 0px 0px 5px;
 }
@@ -44,7 +44,7 @@ header{
       color: rgba(122, 122, 122, 0.816);
       border: none;
       font-size: 18px;
-      height: 50px;
+      height: 3rem;
       width: 10vw;
       border-radius: 0px 5px 5px 0px;
       margin-left:-2px ;
@@ -68,6 +68,9 @@ main {
       ;
   }
   
+  .temprature{
+      font-size: 2rem;
+  }
   .weather-container {
       display: flex;
       gap: 1rem;
@@ -75,20 +78,28 @@ main {
       height: 5rem;
   }
   .location {
+      display: block;
       font-size: 2rem;
       margin-bottom: 1.6rem;
+      width: 200px;
   }
-  
   .condition {
       text-align: center;
   }
   .location-date{
       display: flex;
-      width: 5rem;
+      width: 10rem;
+      gap:1rem;
       flex-wrap: wrap;
+
 }
-.weather-status{
+.weather-state{
       display: flex;
-      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+
+      flex-wrap: wrap;
+      width: 2rem;
+
       
 }
