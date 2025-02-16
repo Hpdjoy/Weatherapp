@@ -60,7 +60,7 @@ function updateDom(data) {
 
 
 async function fetchWeatherData(location) {
-      const url = `http://api.weatherapi.com/v1/current.json?key=fc5f9ceabaa243aca57200406251402&q=${location}&aqi=yes`;
+      const url = `https://api.weatherapi.com/v1/current.json?key=fc5f9ceabaa243aca57200406251402&q=${location}&aqi=yes`;
       const response = await fetch(url);
       if (response.status == 400) {
             console.log("Location not found");
